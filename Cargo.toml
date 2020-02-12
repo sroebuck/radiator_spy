@@ -1,0 +1,13 @@
+[package]
+name = "radiator_spy"
+version = "0.1.0"
+authors = ["Stuart Roebuck"]
+edition = "2018"
+
+[dependencies]
+bitvec = "0.17.2"
+byteorder = "1.2.2"
+cc1101 = { path = "../cc1101" }
+colorful = "0.2.1"
+itertools = "0.8.2"
+rppal = { version = "0.11.3", features = ["hal"] }
